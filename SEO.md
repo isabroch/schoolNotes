@@ -71,3 +71,25 @@ God eksempel af mulighed for Strukturerede Data på tyra.dk
 
 </div>
 ```
+
+
+
+
+## Sitemap
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.tyra.dk/</loc>
+    <lastmod>2019-10-06</lastmod>
+  </url>
+  <url>
+    <loc>http://www.tyra.dk/Baggrund.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.tyra.dk/Kalender.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.tyra.dk/Priser.htm</loc>
+  </url>
+</urlset>

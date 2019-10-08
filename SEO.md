@@ -9,6 +9,9 @@ Arrangementer i 19/20 | Tyra.dk
 Maks 55 tegn.
 
 
+
+
+
 ## META DESCRIPTION
 Har mindre vægt i forhold til søgresultater, men er vigtig for at få menneskers opmærksomhed.
 Relevante søgord bliver fremhævet hvis de står i meta descriptionen.
@@ -20,16 +23,21 @@ Fabelagtige, fantastiske & finurlige fortællinger om Københavns historie. Hist
 Kvote "" og non-alpha tegn bliver slettet.
 
 
+
+
+
 ## NOTES ON SEO
 ### H1 in body vs inner section
 H1 inside of section, article, aside are, by default, rendered and recognized as one step lower than H1 directly inside body.
-  Body > H1 == H1
-  Body > Section > H1 == H2
-  Body > Section > Section > H1 == H3
+Body > H1 == H1\
+Body > Section > H1 == H2\
+Body > Section > Section > H1 == H3
 
----
 ### Meta Description
 Meta description is not necessarily gonna be shown - just as likely to take the first p tag directly beneath a H1, or take a relevant snippet.
+
+
+
 
 
 ## STRUKTUREREDE DATA
@@ -38,13 +46,13 @@ Microdata can be used to give more context to a search engine.
 
 Relevant attributes are:
 * itemscope
-  boolean that, when specified, says that everything within is part of structured data
+  boolean that, when specified, says that everything within is part of structured data.
 * itemtype
-  a 'dictionary' or object defined via http://schema.org/[Keyword]
+  a 'dictionary' or object defined via https://schema.org/docs/full.html.
 * itemprop
-  creates a key-value pair where itemprop value is the key, and text wrapped inside is value
+  creates a key-value pair where itemprop val is the key and (usually) text wrapped is value. exceptions include href being used for url...
 * itemref
-  if your itemscope/type is in a seperate wrapper, ref tells it WHICH wrapper (by id) it should look for the data from
+  if your itemscope/type is in a seperate wrapper, ref tells it WHICH wrapper (by id) it should look for the data from.
 
 
 God eksempel af mulighed for Strukturerede Data på tyra.dk

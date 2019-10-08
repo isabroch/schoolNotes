@@ -21,12 +21,14 @@ Kvote "" og non-alpha tegn bliver slettet.
 
 
 ## NOTES ON SEO
+### H1 in body vs inner section
 H1 inside of section, article, aside are, by default, rendered and recognized as one step lower than H1 directly inside body.
-Body > H1 == H1
-Body > Section > H1 == H2
-Body > Section > Section > H1 == H3
+  Body > H1 == H1
+  Body > Section > H1 == H2
+  Body > Section > Section > H1 == H3
 
-
+---
+### Meta Description
 Meta description is not necessarily gonna be shown - just as likely to take the first p tag directly beneath a H1, or take a relevant snippet.
 
 

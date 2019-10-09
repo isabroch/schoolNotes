@@ -85,6 +85,7 @@ God eksempel af mulighed for Strukturerede Data på tyra.dk
   </url>
   <url>
     <loc>http://www.tyra.dk/Baggrund.htm</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.tyra.dk/Kalender.htm</loc>

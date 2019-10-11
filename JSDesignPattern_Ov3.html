@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    :root {
+      --spacing: 8px;
+
+      --spacingHalf: 4px;
+      --spacingSmall: calc(var(--spacing) * 2);
+      --spacingLarge: calc(var(--spacing) * 4);
+    }
+
+    .itemlist {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      list-style: none;
+      padding: 0;
+      margin: var(--spacingLarge);
+      grid-gap: var(--spacingSmall);;
+    }
+
+    .product {
+      display: grid;
+      justify-content: center;
+      grid-gap: var(--spacing);
+    }
+
+    .product__container {
+      display: contents;
+    }
+
+    .product__header {
+      font-size: var(--spacingSmall);
+      margin: 0;
+    }
+  </style>
+
+  <script src="JSDesignPattern_Ov3.js" defer></script>
+</head>
+
+<body>
+  <ul class="itemlist">
+
+
+
+  </ul>
+</body>
+
+</html>

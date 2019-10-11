@@ -31,7 +31,7 @@ Used to collect and keep together help functions like:\
 addOne, subtractOne, osv...\
 fetch, fetchAll, fetchSome, fetchOne, osv...
 
-**Øvelse findes i JSDesignPattern_Ov1.js**...
+> **Øvelse findes i JSDesignPattern_Ov1.js**...
 
 
 ### Module pattern
@@ -54,4 +54,8 @@ const modulePattern = {
 
 Can be used in webshop to protect the cart itself (so people can't change prices of things), while still allowing use of functions like adding or removing things from cart.
 
-**Øvelse findes i JSDesignPattern_Ov2.js**...
+> **Øvelse findes i JSDesignPattern_Ov2.js**
+
+I went ahead and built an example of modulePattern for a cart system and product system.
+
+> **Øvelse findes i JSDesignPattern_Ov3.js/.html**
